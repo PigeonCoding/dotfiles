@@ -1,0 +1,54 @@
+theme = "fleet_dark" # "gruvbox"
+
+[keys.normal."["]
+"[" = "goto_previous_buffer"
+
+[keys.normal."]"]
+"]" = "goto_next_buffer"
+
+[editor]
+shell = ["zsh", "-c"]
+line-number = "relative"
+true-color = true
+
+[keys.normal]
+C-s = ":w"
+C-v = "@<C-n><C-k>"
+C-x = ":lsp-restart"
+C-z = "shell_insert_output"
+C-k = ":bc!"
+C-n = ":n"
+C-f = ":fmt"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.auto-save]
+after-delay.enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+# other-lines = "info"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+right = ["version-control", "diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+
+[editor.indent-guides]
+render = true
+character = "▏" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1

@@ -1,0 +1,28 @@
+[window]
+#decorations = "none"
+#opacity = 0.95
+#blur = true
+# dynamic_padding = true
+padding = {x = 0, y = 0}
+
+# /usr/share/fonts/TTF/FiraCodeNerdFontPropo-Regular.ttf
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Medium" }
+size = 12
+
+[keyboard]
+bindings = [
+	{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
+
+[debug]
+renderer = "Glsl3"
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/oxocarbon.toml"
+]
