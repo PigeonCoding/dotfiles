@@ -69,17 +69,16 @@ input {
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
-/-output "eDP-1" {
+output "eDP-1" {
     // Uncomment this line to disable this output.
     // off
-
     // Resolution and, optionally, refresh rate of the output.
     // The format is "<width>x<height>" or "<width>x<height>@<refresh rate>".
     // If the refresh rate is omitted, niri will pick the highest refresh rate
     // for the resolution.
     // If the mode is omitted altogether or is invalid, niri will pick one automatically.
     // Run `niri msg outputs` while inside a niri instance to list all outputs and their modes.
-    mode "1920x1080@120.030"
+    mode "1920x1080@75"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1
@@ -257,6 +256,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-at-startup "~/Documents/dotfiles/clipstart.sh"
+spawn-at-startup "swaybg -i ~/Pictures/t3_110ml54.png -m fill"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -321,10 +321,10 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
-    clip-to-geometry true
-}
+// /-window-rule {
+//     geometry-corner-radius 12
+//     clip-to-geometry true
+// }
 
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
@@ -584,4 +584,6 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 
     Mod+V { spawn "~/Documents/dotfiles/clipselect.sh";}
+    Mod+P { spawn "~/Documents/dotfiles/colorPicker.sh";}
+    mod+Z { spawn "wooz" "--invert-scroll"; }
 }

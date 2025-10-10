@@ -1,11 +1,11 @@
 {
   "layer": "top",
   "position": "bottom",
-  "height": 18,
+  "height": 22,
   "spacing": 1,
   "margin": 0,
   "modules-left": [
-    "group/hardware",
+    // "group/hardware",
     "niri/workspaces",
     "niri/window"
   ],
