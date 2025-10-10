@@ -12,3 +12,4 @@ link alacritty  ~/.config
 link .oh-my-zsh ~
 link .zshrc     ~
 link .zen.toml  ~
+link fuzzel     ~/.config
