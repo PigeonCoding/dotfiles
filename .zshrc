@@ -8,8 +8,9 @@ plugins=(
 	git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	colored-man-pages
+	fzf
 )
-
 # eval "$(zoxide init zsh)"
 # eval "$(oh-my-posh init zsh --config $HOME/.zen.toml)"
 ZSH_THEME=robbyrussell
