@@ -254,9 +254,10 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
-spawn-at-startup "~/Documents/dotfiles/clipstart.sh"
-spawn-at-startup "swaybg -i ~/Pictures/t3_110ml54.png -m fill"
+// spawn-at-startup "waybar"
+// spawn-at-startup "~/Documents/dotfiles/clipstart.sh"
+// spawn-at-startup "swaybg -i ~/Pictures/t3_110ml54.png -m fill"
+spawn-at-startup "~/Documents/dotfiles/autostart.sh"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -307,6 +308,17 @@ window-rule {
     open-floating true
 }
 
+window-rule {
+    match title="gsr ui"
+    open-floating true
+}
+
+window-rule {
+    match app-id="dev.negrel.wooz"
+    open-fullscreen true
+    open-floating true
+}
+
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
@@ -343,6 +355,7 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
@@ -586,4 +599,7 @@ binds {
     Mod+V { spawn "~/Documents/dotfiles/clipselect.sh";}
     Mod+P { spawn "~/Documents/dotfiles/colorPicker.sh";}
     mod+Z { spawn "wooz" "--invert-scroll"; }
+
+    Mod+B { maximize-column; }
+    Mod+Control+B { fullscreen-window; }
 }
