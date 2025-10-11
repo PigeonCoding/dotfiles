@@ -60,7 +60,7 @@ alias sch="baloosearch6"
 export PATH="$PATH:/home/pigeon/.lmstudio/bin"
 
 alias snvm="[ -z \"$NVM_DIR\" ] && export NVM_DIR=\"$HOME/.nvm\" && source /usr/share/nvm/nvm.sh && source /usr/share/nvm/bash_completion && source /usr/share/nvm/install-nvm-exec"
-alias hx="helix"
+# alias hx="helix"
 alias ghx="alacritty -e helix"
 alias gap="git add --patch"
 alias gl='git log --graph --all --pretty=format:"%C(magenta)%h %C(white) %an  %ar%C(blue)  %D%n%s%n"'
@@ -68,7 +68,7 @@ alias l="eza -la --group-directories-first"
 alias ll="eza -l --group-directories-first"
 
 alias cpr="rsync -Pr"
-eval $(ssh-agent) > /dev/null && ssh-add ~/.ssh/default 2> /dev/null
+eval $(ssh-agent) > /dev/null && ssh-add ~/.ssh/github 2> /dev/null
 
 alias umm="mono /home/pigeon/HDD/Games/UnityModManagerInstaller/UnityModManager.exe"
 alias nvim="~/.local/share/bob/nvim-bin/nvim"
