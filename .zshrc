@@ -1,9 +1,4 @@
 
-#export LC_ALL=""
-#export LC_COLLATE=C
-#export LANG=en_EN.UTF-8
-#export LANG=C 
-
 plugins=(
 	git
 	zsh-autosuggestions
@@ -54,7 +49,7 @@ alias neolvim="/bin/sh -c '$HOME/.local/bin/neovide-lunarvim' & "
 alias llvim="alacritty -e ~/.local/bin/lvim "
 alias cpl="find . -name '*pp' | xargs wc -l"
 # alias gt="eval '$(ssh-agent)' && ssh-add ~/.ssh/default"
-alias clean="rm -rf ~/.cache/yay && sudo pacman -Scc --noconfirm && sudo journalctl --vacuum-size=500M && sudo rm -r /var/cache/pacman/pkg/* && flatpak uninstall --unused "
+alias clean="rm -rf ~/.cache/yay && sudo pacman -Scc --noconfirm && sudo journalctl --vacuum-size=500M && sudo rm -r /var/cache/pacman/pkg/* && flatpak uninstall --unused && sudo rm -rfv /var/tmp/flatpak-cache-*"
 alias sch="baloosearch6"
 
 # Added by LM Studio CLI (lms)

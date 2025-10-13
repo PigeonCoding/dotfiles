@@ -86,7 +86,7 @@
     "tooltip-format": "Reboot"
   },
   "custom/soft-reboot": {
-    "format": "<span color='#FF4040'> \\ </span>",
+    "format": "<span color='#FF4040'> X </span>",
     "on-click": "systemctl soft-reboot",
     "tooltip": true,
     "tooltip-format": "Soft Reboot"
