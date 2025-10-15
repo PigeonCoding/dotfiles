@@ -1,5 +1,5 @@
 {
-  "layer": "top",
+  // "layer": "top",
   "position": "bottom",
   "height": 14,
   "spacing": 1,
@@ -13,12 +13,12 @@
     "clock"
   ],
   "modules-right": [
+    "tray",
     "wireplumber#sink",
     // "backlight",
     "network",
-    // "battery",
+    "battery",
     "group/session",
-    "tray"
   ],
   "niri/workspaces": {
     "format": "{icon}",
@@ -206,6 +206,6 @@
   },
   "tray": {
     "icon-size": 16,
-    "spacing": 5
+    "spacing": 4
   }
 }

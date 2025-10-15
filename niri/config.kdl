@@ -63,6 +63,10 @@ input {
     // focus-follows-mouse max-scroll-amount="0%"
 }
 
+cursor {
+    xcursor-theme "breeze_cursors"
+    xcursor-size 24
+}
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
 // The built-in laptop monitor is usually called "eDP-1".
@@ -338,6 +342,10 @@ window-rule {
 //     clip-to-geometry true
 // }
 
+hotkey-overlay {
+    hide-not-bound
+}
+
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
     // in the end. To find an XKB name for a particular key, you may use a program
@@ -602,4 +610,6 @@ binds {
 
     Mod+B { maximize-column; }
     Mod+Control+B { fullscreen-window; }
+
+    Mod+Space {spawn "fuzzel";}
 }
