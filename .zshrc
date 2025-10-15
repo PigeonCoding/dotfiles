@@ -71,7 +71,7 @@ alias nvim="~/.local/share/bob/nvim-bin/nvim"
 
 alias mirrors="curl -s 'https://archlinux.org/mirrorlist/all/' | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 10 -"
 
-export SUDO_EDITOR=helix
+export SUDO_EDITOR=hx
 export QT_QPA_PLATFORMTHEME="qt6ct"
 
 # BEGIN opam configuration
