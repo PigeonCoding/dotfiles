@@ -362,8 +362,8 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
-    Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
@@ -606,6 +606,7 @@ binds {
 
     Mod+V { spawn "~/Documents/dotfiles/clipselect.sh";}
     Mod+P { spawn "~/Documents/dotfiles/colorPicker.sh";}
+    Mod+S { spawn "kitty" "-e" "hx" "~/Documents/scratchpad.md";}
     mod+Z { spawn "wooz" "--invert-scroll"; }
 
     Mod+B { maximize-column; }

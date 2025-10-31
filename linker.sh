@@ -6,10 +6,11 @@ link() {
 }
 
 link niri       ~/.config
+link kitty      ~/.config
 link helix      ~/.config
 link waybar     ~/.config
 link alacritty  ~/.config
+link fuzzel     ~/.config
 link .oh-my-zsh ~
 link .zshrc     ~
 link .zen.toml  ~
-link fuzzel     ~/.config
