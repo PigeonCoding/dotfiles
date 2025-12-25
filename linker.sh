@@ -6,6 +6,7 @@ link() {
 }
 
 link niri       ~/.config
+link konsave    ~/.config
 link kitty      ~/.config
 link helix      ~/.config
 link waybar     ~/.config

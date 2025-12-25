@@ -1,0 +1,8 @@
+[Daemon]
+Autolock=false
+LockOnResume=false
+Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/pigeon/Pictures/t3_110ml54.png
+PreviewImage=/home/pigeon/Pictures/t3_110ml54.png

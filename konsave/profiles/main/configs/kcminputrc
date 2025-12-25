@@ -1,0 +1,22 @@
+[Keyboard]
+NumLock=0
+RepeatDelay=400
+RepeatRate=40
+
+[Libinput][1][1][kanata]
+PointerAcceleration=0.200
+PointerAccelerationProfile=1
+
+[Libinput][1133][49271][Logitech USB Optical Mouse]
+PointerAcceleration=0.200
+PointerAccelerationProfile=1
+ScrollFactor=1.5
+
+[Libinput][9610][42][SINO WEALTH Gaming KB  Mouse]
+Enabled=true
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true
+XLbInptPointerAcceleration=0.1

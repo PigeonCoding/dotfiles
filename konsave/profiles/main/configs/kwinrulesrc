@@ -1,0 +1,109 @@
+[16812474-4d71-45d1-818d-fb48bb036870]
+Description=Application settings for org.keepassxc.KeePassXC
+desktops=df97768e-798b-41f3-ac89-10ff6f3e722f
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\sorg.keepassxc.KeePassXC
+wmclasscomplete=true
+wmclassmatch=1
+
+[5096d7f5-4a75-49b2-8f11-bac060f80161]
+Description=Application settings for Alacritty
+clientmachine=localhost
+size=1266,753
+sizerule=3
+wmclass=Alacritty
+wmclassmatch=1
+
+[54a9cb93-5746-4d42-a403-77e16d916a49]
+sizerule=2
+
+[7f3275cc-794c-4fd1-8a36-c15661f2e88d]
+Description=Window settings for tf_linux64
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=3
+title=Team Fortress 2 - Vulkan - 64 Bit
+titlematch=1
+types=1
+wmclass=tf_linux64
+wmclassmatch=1
+
+[7fd7a47f-acaa-46ab-8f7b-97c18893b725]
+Description=Application settings for tf_linux64
+clientmachine=localhost
+noborder=true
+noborderrule=3
+wmclass=tf_linux64
+wmclassmatch=1
+
+[90fca6c7-12cd-4b2a-b41a-070af99d2e24]
+Description=Window settings for upc.exe
+aboverule=2
+clientmachine=localhost
+title=Ubisoft Connect
+titlematch=1
+types=1
+wmclass=upc.exe
+wmclassmatch=1
+
+[96db1e12-02d5-4a6e-9025-a7d36ea56672]
+Description=Application settings for steam_app_235460
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=steam_app_235460
+wmclassmatch=1
+
+[General]
+count=11
+rules=96db1e12-02d5-4a6e-9025-a7d36ea56672,a7f6c92e-d2ae-4c55-a14f-9df024ed7658,ba12e85e-589f-4026-9288-a5b508003766,5096d7f5-4a75-49b2-8f11-bac060f80161,c252cfad-0b1c-4789-aa8a-123f66226b3b,90fca6c7-12cd-4b2a-b41a-070af99d2e24,d902f292-16dc-496b-bf6f-4fb547b51b64,eac891bb-da0a-4a5a-a701-8a422669850f,16812474-4d71-45d1-818d-fb48bb036870,7f3275cc-794c-4fd1-8a36-c15661f2e88d,7fd7a47f-acaa-46ab-8f7b-97c18893b725
+
+[a7f6c92e-d2ae-4c55-a14f-9df024ed7658]
+Description=Application settings for sekiro.exe
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=3
+wmclass=sekiro.exe
+wmclassmatch=1
+
+[ba12e85e-589f-4026-9288-a5b508003766]
+Description=Application settings for org.wezfurlong.wezterm
+size=1255,744
+sizerule=3
+wmclass=wezterm-gui org.wezfurlong.wezterm
+wmclasscomplete=true
+wmclassmatch=1
+
+[c252cfad-0b1c-4789-aa8a-123f66226b3b]
+Description=Application settings for Alacritty
+maximizehorizrule=3
+maximizevertrule=3
+position=309,145
+positionrule=3
+size=1343,786
+sizerule=3
+wmclass=alacritty Alacritty
+wmclasscomplete=true
+wmclassmatch=1
+
+[d902f292-16dc-496b-bf6f-4fb547b51b64]
+Description=Application settings for com.system76.CosmicTerm
+size=1572,830
+sizerule=3
+wmclass=cosmic-term com.system76.CosmicTerm
+wmclasscomplete=true
+wmclassmatch=1
+
+[eac891bb-da0a-4a5a-a701-8a422669850f]
+Description=Window settings for firefox
+maximizehorizrule=3
+maximizevertrule=3
+title=Mozilla Firefox
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
