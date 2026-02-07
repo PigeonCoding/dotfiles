@@ -22,7 +22,7 @@ DialogWidth=1118
 
 [Containments][57][General]
 iconSize=2
-positions={"1080x2340":["3","11","desktop:/steam.desktop","1","1","desktop:/DNF Duel.desktop","1","2","desktop:/Marvel Rivals.desktop","0","5","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/Art of Rally.desktop","0","6","desktop:/Minecraft Java Edition.desktop","1","5","desktop:/zen.desktop","0","9","desktop:/umm.desktop","1","4","desktop:/heroic.desktop","0","1","desktop:/Sekiro Shhadows Die Twice.desktop","0","2","desktop:/Counter-Strike 2.desktop","0","4","desktop:/org.kde.dolphin.desktop","0","10","desktop:/Balatro.desktop","0","8","desktop:/pcsx2.desktop","2","0","desktop:/Team Fortress 2.desktop","0","3","desktop:/Need for speed most wanted 2005.desktop","0","7","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop","1","3"],"1536x864":[""],"1920x1080":["9","20","desktop:/Counter-Strike 2.desktop","1","19","desktop:/Minecraft Java Edition.desktop","5","18","desktop:/Sekiro Shhadows Die Twice.desktop","4","18","desktop:/Art of Rally.desktop","3","18","desktop:/vesktop.desktop","2","8","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/zen.desktop","2","9","desktop:/Cemu.desktop","2","1","desktop:/DNF Duel.desktop","0","18","desktop:/Need for speed most wanted 2005.desktop","2","18","desktop:/steam.desktop","1","1","desktop:/heroic.desktop","0","1","desktop:/pcsx2.desktop","2","0","desktop:/Balatro.desktop","1","18","desktop:/DuckStation-x64.AppImage","3","1","desktop:/Team Fortress 2.desktop","2","19","desktop:/Clair Obscure Expedition 33.desktop","6","18","desktop:/umm.desktop","8","19","desktop:/suyu.desktop","3","0","desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop","0","19","desktop:/org.kde.dolphin.desktop","2","10","desktop:/net.lutris.Lutris.desktop","1","0"],"2133x1200":[""],"2560x1440":[""]}
+positions={"1080x2340":["3","11","desktop:/steam.desktop","1","1","desktop:/DNF Duel.desktop","1","2","desktop:/Marvel Rivals.desktop","0","5","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/Art of Rally.desktop","0","6","desktop:/Minecraft Java Edition.desktop","1","5","desktop:/zen.desktop","0","9","desktop:/umm.desktop","1","4","desktop:/heroic.desktop","0","1","desktop:/Sekiro Shhadows Die Twice.desktop","0","2","desktop:/Counter-Strike 2.desktop","0","4","desktop:/org.kde.dolphin.desktop","0","10","desktop:/Balatro.desktop","0","8","desktop:/pcsx2.desktop","2","0","desktop:/Team Fortress 2.desktop","0","3","desktop:/Need for speed most wanted 2005.desktop","0","7","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop","1","3"],"1536x864":[""],"1920x1080":["11","20","desktop:/Team Fortress 2.desktop","1","19","desktop:/steam.desktop","1","1","desktop:/Discord.desktop","2","8","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/umm.desktop","10","19","desktop:/zen.desktop","2","9","desktop:/heroic.desktop","0","1","desktop:/suyu.desktop","3","0","desktop:/pcsx2.desktop","2","0","desktop:/DuckStation-x64.AppImage","3","1","desktop:/org.kde.dolphin.desktop","2","10","desktop:/Cemu.desktop","2","1","desktop:/Counter-Strike 2.desktop","0","19","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/Tekkit 2","2","19"],"2133x1200":[""],"2560x1440":[""]}
 sortMode=-1
 
 [Containments][57][Wallpaper][org.kde.color][General]
@@ -53,7 +53,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][58][Applets][59][Configuration]
 PreloadWeight=100
 popupHeight=722
-popupWidth=732
+popupWidth=766
 
 [Containments][58][Applets][59][Configuration][ConfigDialog]
 DialogHeight=540
@@ -125,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][58][Applets][63][Applets][72][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][58][Applets][63][Applets][73]
 immutability=1
@@ -192,7 +192,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][58][Applets][63][Applets][83][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][58][Applets][63][Applets][83][Configuration][ConfigDialog]
 DialogHeight=540
@@ -209,7 +209,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][58][Applets][63][Applets][85][Configuration]
-PreloadWeight=51
+PreloadWeight=61
 
 [Containments][58][Applets][63][Applets][88]
 immutability=1
@@ -239,7 +239,15 @@ plugin=org.kde.plasma.digitalclock
 [Containments][58][Applets][76][Configuration]
 PreloadWeight=100
 popupHeight=451
-popupWidth=525
+popupWidth=810
+
+[Containments][58][Applets][76][Configuration][Appearance]
+enabledCalendarPlugins=astronomicalevents
+firstDayOfWeek=0
+
+[Containments][58][Applets][76][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][58][Applets][81]
 immutability=1
@@ -294,4 +302,4 @@ Image=/home/pigeon/Pictures/t3_110ml54.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Counter-Strike 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Minecraft Java Edition.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/umm.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Team Fortress 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Sekiro Shhadows Die Twice.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/vesktop.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/DNF Duel.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Clair Obscure Expedition 33.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/org.kde.dolphin.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Art of Rally.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Need for speed most wanted 2005.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/steam.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/zen.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/dev.suyu_emu.suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Cemu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/pcsx2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/heroic.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.Lutris.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Balatro.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.ubisoft-connect-1.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03
+screenMapping=desktop:/DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/dev.suyu_emu.suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.ubisoft-connect-1.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/pcsx2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Team Fortress 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/zen.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/org.kde.dolphin.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/steam.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Discord.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Cemu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Tekkit 2,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Counter-Strike 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.Lutris.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/umm.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/heroic.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03

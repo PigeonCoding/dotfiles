@@ -35,6 +35,7 @@ Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
 Output With Date=false
+PinnedDocuments=
 Quickopen Filter Mode=0
 Quickopen List Mode=true
 Recent File List Entry Count=10
@@ -99,10 +100,15 @@ Trailing Marker Size=1
 Word Wrap=false
 Word Wrap Column=80
 
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
 Color Theme=gruvbox Dark
+Font=monospace,9,-1,2,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -152,6 +158,7 @@ Search/Replace Flags=140
 Shoe Line Ending Type in Statusbar=false
 Show Documentation With Completion=true
 Show File Encoding=true
+Show Focus Frame Around Editor=true
 Show Folding Icons On Hover Only=true
 Show Line Count=true
 Show Scrollbars=0
@@ -183,6 +190,7 @@ SetEditor=false
 1366x768 screen: Window-Maximized=true
 1920x1080 screen: Height=1025
 1920x1080 screen: Width=957
+1920x1080 screen: Window-Maximized=true
 ToolBarsMovable=Disabled
 
 [PluginSymbolViewer]

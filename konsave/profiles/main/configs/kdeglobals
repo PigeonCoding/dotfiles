@@ -105,7 +105,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=29,31,34
+BackgroundAlternate=20,22,24
 BackgroundNormal=20,22,24
 DecorationFocus=233,100,58
 DecorationHover=233,100,58
@@ -119,7 +119,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=41,44,48
+BackgroundAlternate=32,35,38
 BackgroundNormal=32,35,38
 DecorationFocus=233,100,58
 DecorationHover=233,100,58
@@ -134,7 +134,7 @@ ForegroundVisited=155,89,182
 
 [General]
 AccentColor=233,100,58
-ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
+ColorSchemeHash=c8772891f88bad92cbf5dbe386541719940c3dee
 LastUsedCustomAccentColor=233,100,58
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -147,13 +147,11 @@ menuFont=Inter Medium,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Inter Medium,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Inter Medium,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
-[Icons]
-Theme=breeze
-
 [KDE]
 AnimationDurationFactor=0.25
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -165,10 +163,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Date
+Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=143
 View Style=Detail
 

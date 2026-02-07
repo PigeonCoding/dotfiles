@@ -59,8 +59,8 @@ wmclass=steam_app_235460
 wmclassmatch=1
 
 [General]
-count=11
-rules=96db1e12-02d5-4a6e-9025-a7d36ea56672,a7f6c92e-d2ae-4c55-a14f-9df024ed7658,ba12e85e-589f-4026-9288-a5b508003766,5096d7f5-4a75-49b2-8f11-bac060f80161,c252cfad-0b1c-4789-aa8a-123f66226b3b,90fca6c7-12cd-4b2a-b41a-070af99d2e24,d902f292-16dc-496b-bf6f-4fb547b51b64,eac891bb-da0a-4a5a-a701-8a422669850f,16812474-4d71-45d1-818d-fb48bb036870,7f3275cc-794c-4fd1-8a36-c15661f2e88d,7fd7a47f-acaa-46ab-8f7b-97c18893b725
+count=12
+rules=b6ab4327-79a0-4147-ac8e-def4a61dacdd,96db1e12-02d5-4a6e-9025-a7d36ea56672,a7f6c92e-d2ae-4c55-a14f-9df024ed7658,ba12e85e-589f-4026-9288-a5b508003766,5096d7f5-4a75-49b2-8f11-bac060f80161,c252cfad-0b1c-4789-aa8a-123f66226b3b,90fca6c7-12cd-4b2a-b41a-070af99d2e24,d902f292-16dc-496b-bf6f-4fb547b51b64,eac891bb-da0a-4a5a-a701-8a422669850f,16812474-4d71-45d1-818d-fb48bb036870,7f3275cc-794c-4fd1-8a36-c15661f2e88d,7fd7a47f-acaa-46ab-8f7b-97c18893b725
 
 [a7f6c92e-d2ae-4c55-a14f-9df024ed7658]
 Description=Application settings for sekiro.exe
@@ -68,6 +68,15 @@ clientmachine=localhost
 fullscreen=true
 fullscreenrule=3
 wmclass=sekiro.exe
+wmclassmatch=1
+
+[b6ab4327-79a0-4147-ac8e-def4a61dacdd]
+Description=Application settings for kitty
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=kitty
 wmclassmatch=1
 
 [ba12e85e-589f-4026-9288-a5b508003766]
