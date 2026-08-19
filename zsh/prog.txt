@@ -1,0 +1,19 @@
+# External programs required by this zsh config.
+#
+# These are NOT bundled in this directory (they are system tools the config
+# depends on). Install them via your package manager.
+
+zsh                 # the shell itself
+git                 # git plugin aliases + robbyrussell git prompt info
+fzf                 # fzf plugin (shell integration is bundled in ./fzf)
+eza                 # `l` and `ll` aliases
+zeditor             # `z` alias
+
+# Bundled system-wide plugin copies (no longer read from /usr/share):
+#   plugins/zsh-autosuggestions/      (zsh-autosuggestions package)
+#   plugins/zsh-syntax-highlighting/  (zsh-syntax-highlighting package)
+# They are self-contained in this directory.
+
+# Other programs referenced by aliases in .zshrc:
+#   yay, pacman, flatpak, rsync, codium, curl, rankmirrors, docker,
+#   ssh-agent, hx, claude, lllama-server, zeditor, nvm, opam
