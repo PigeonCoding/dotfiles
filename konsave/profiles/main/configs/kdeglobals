@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=175,83,55
+BackgroundAlternate=132,66,90
 BackgroundNormal=41,44,48
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=249,195,187
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -37,11 +37,11 @@ ForegroundVisited=155,89,182
 [Colors:Complementary]
 BackgroundAlternate=30,87,116
 BackgroundNormal=32,35,38
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=233,100,58
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -51,11 +51,11 @@ ForegroundVisited=155,89,182
 [Colors:Header]
 BackgroundAlternate=32,35,38
 BackgroundNormal=41,44,48
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=249,195,187
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -77,13 +77,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=169,76,47
-BackgroundNormal=169,76,47
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+BackgroundAlternate=126,59,82
+BackgroundNormal=126,59,82
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=255,255,255
-ForegroundLink=170,73,42
+ForegroundLink=126,55,79
 ForegroundNegative=176,55,69
 ForegroundNeutral=198,92,0
 ForegroundNormal=255,255,255
@@ -93,11 +93,11 @@ ForegroundVisited=155,89,182
 [Colors:Tooltip]
 BackgroundAlternate=32,35,38
 BackgroundNormal=41,44,48
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=249,195,187
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -105,13 +105,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=20,22,24
+BackgroundAlternate=29,31,34
 BackgroundNormal=20,22,24
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=233,100,58
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -119,13 +119,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=32,35,38
+BackgroundAlternate=41,44,48
 BackgroundNormal=32,35,38
-DecorationFocus=233,100,58
-DecorationHover=233,100,58
-ForegroundActive=233,100,58
+DecorationFocus=172,76,108
+DecorationHover=172,76,108
+ForegroundActive=172,76,108
 ForegroundInactive=161,169,177
-ForegroundLink=233,100,58
+ForegroundLink=231,187,198
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -133,8 +133,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-AccentColor=233,100,58
-ColorSchemeHash=c8772891f88bad92cbf5dbe386541719940c3dee
+AccentColor=172,76,108
+ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
 LastUsedCustomAccentColor=233,100,58
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -142,6 +142,7 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
+accentColorFromWallpaper=true
 font=Inter Medium,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=Inter Medium,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Inter Medium,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -151,6 +152,8 @@ toolBarFont=Inter Medium,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 AnimationDurationFactor=0.25
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
+contrast=4
+frameContrast=0.2
 widgetStyle=Breeze
 
 [KFileDialog Settings]
@@ -168,7 +171,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=143
-View Style=Detail
+View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=HDMI-A-1=1;

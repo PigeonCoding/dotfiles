@@ -1,5 +1,3 @@
-MenuBar=Disabled
-
 [Desktop Entry]
 DefaultProfile=gud.profile
 
@@ -11,6 +9,10 @@ AllowMenuAccelerators=true
 
 [MainWindow]
 MenuBar=Disabled
+ToolBarsMovable=Enabled
 
-[UiSettings]
-ColorScheme=
+[Notification Messages]
+CloseAllTabs=true
+
+[TabBar]
+TabBarPosition=Bottom
