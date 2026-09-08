@@ -74,8 +74,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 export PATH="/home/pigeon/.local/bin:$PATH"
 
-export LSFG_DLL_PATH="/home/pigeon/HDD/Games/LosslessScaling/Lossless.dll"
-
 # bun completions
 [ -s "/home/pigeon/.bun/_bun" ] && source "/home/pigeon/.bun/_bun"
 
@@ -101,7 +99,6 @@ alias ll="eza -l --group-directories-first"
 alias cpr="rsync -Pr"
 eval $(ssh-agent) > /dev/null && ssh-add ~/.ssh/github 2> /dev/null
 
-alias mirrors="curl -s 'https://archlinux.org/mirrorlist/all/' | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 10 -"
 alias mirrors2="curl -s 'https://archlinux.org/mirrorlist/?protocol=http&protocol=https&use_mirror_status=on' | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 10 -"
 
 alias cld="ANTHROPIC_BASE_URL=http://localhost:1234 ANTHROPIC_AUTH_TOKEN=lmstudio CLAUDE_CODE_ATTRIBUTION_HEADER=0 claude"
@@ -111,15 +108,37 @@ export QT_QPA_PLATFORMTHEME="qt6ct"
 
 alias pp="WINEPREFIX=/home/pigeon/HDD/code/wine_prefix"
 
-# BEGIN opam configuration
-# This is useful if you're using opam as it adds:
-#   - the correct directories to the PATH
-#   - auto-completion for the opam binary
-# This section can be safely removed at any time if needed.
-[[ ! -r '/home/pigeon/.opam/opam-init/init.zsh' ]] || source '/home/pigeon/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
-# END opam configuration
+# # BEGIN opam configuration
+# # This is useful if you're using opam as it adds:
+# #   - the correct directories to the PATH
+# #   - auto-completion for the opam binary
+# # This section can be safely removed at any time if needed.
+# [[ ! -r '/home/pigeon/.opam/opam-init/init.zsh' ]] || source '/home/pigeon/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# # END opam configuration
 
 alias mermaid="docker run --platform linux/amd64 --publish 8000:8080 ghcr.io/mermaid-js/mermaid-live-editor"
 source /usr/share/nvm/init-nvm.sh
-alias oneapi=". /opt/intel/oneapi/setvars.sh"
-alias bonsai27B="/home/pigeon/.local/bin/lllama-server -m /home/pigeon/HDD/lm_studio/lmstudio-community/Bonsai-27B-GGUF/Bonsai-27B-Q1_0.gguf --mmproj /home/pigeon/HDD/lm_studio/lmstudio-community/Bonsai-27B-GGUF/mmproj-Bonsai-27B-BF16.gguf -c 80000 -kvu -ngl 99 --no-mmproj-offload -fa on --load-mode mmap -ctk q4_0 -ctv q4_0"
+# alias oneapi=". /opt/intel/oneapi/setvars.sh"
+# alias bonsai27B="/home/pigeon/.local/bin/lllama-server -m /home/pigeon/HDD/lm_studio/lmstudio-community/Bonsai-27B-GGUF/Bonsai-27B-Q1_0.gguf --mmproj /home/pigeon/HDD/lm_studio/lmstudio-community/Bonsai-27B-GGUF/mmproj-Bonsai-27B-BF16.gguf -c 80000 -kvu -ngl 99 --no-mmproj-offload -fa on --load-mode mmap -ctk q4_0 -ctv q4_0"
+
+opencode-key() {
+  local num="$1"
+  shift # Remove the number so remaining flags/args go to opencode
+
+  # Indirect reference to pull ZEN_1, ZEN_2, etc.
+  local key_var="ZEN_${num}"
+  local target_key="${(P)key_var}"
+
+  if [[ -z "$target_key" ]]; then
+    echo "Error: \$${key_var} is not set or empty."
+    return 1
+  fi
+
+  # Launch opencode with OPENCODE_ZEN_API_KEY set for this process only
+  OPENCODE_ZEN_API_KEY="$target_key" opencode "$@"
+}
+
+# Short alias for convenience
+alias op="opencode-key"
+
+. "$HOME/.local/bin/env"
