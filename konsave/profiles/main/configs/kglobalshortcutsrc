@@ -383,8 +383,8 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 117=none,none,Activate Icons-and-Text Task Manager Widget
-activate widget 118=none,none,Activate Tiled Menu Prime Widget
 activate widget 124=none,none,Activate System Monitor Widget
+activate widget 164=none,none,Activate Application Launcher Widget
 activate widget 26=none,none,Activate Icons-and-Text Task Manager Widget
 activate widget 91=none,none,Activate Icons-and-Text Task Manager Widget
 clear history=none,none,Clear Notification History
@@ -420,6 +420,7 @@ _launch=Search\tMeta+Space
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none
 CurrentMonitorScreenShot=Meta+Print
+OpenWithoutScreenshot=none
 RecordWindow=none
 RectangularRegionScreenShot=Meta+S\tMeta+Shift+Print
 

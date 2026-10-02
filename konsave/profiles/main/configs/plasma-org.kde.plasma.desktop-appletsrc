@@ -6,13 +6,82 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][128]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=6b7a0670-a9c6-41a2-920e-69261dfecc03
 formfactor=0
 immutability=1
-lastScreen=2
+lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][128][Wallpaper][org.kde.image][General]
+Image=file:///home/pigeon/Pictures/wallhaven-kxoj7q.jpg
+SlidePaths=/home/pigeon/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][157]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=1
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][157][Applets][159]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][157][Applets][159][Configuration]
+popupHeight=451
+popupWidth=560
+
+[Containments][157][Applets][160]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
+[Containments][157][Applets][161]
+immutability=1
+plugin=luisbocanegra.panelspacer.extended
+
+[Containments][157][Applets][161][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][157][Applets][161][Configuration][General]
+contextMenuActions=[{"action":"custom_command,Custom Command","command":"plasma-systemmonitor","url":"","icon":"utilities-system-monitor","name":"System Monitor","isEnabled":false}]
+contextualActionsEnabled=false
+doubleClickAction=Disabled,Disabled
+middleClickAction=Disabled,Disabled
+mouseDragDownAction=Disabled,Disabled
+mouseDragLeftAction=Disabled,Disabled
+mouseDragRightAction=Disabled,Disabled
+mouseDragUpAction=Disabled,Disabled
+mouseWheelDownAction=Disabled,Disabled
+mouseWheelUpAction=Disabled,Disabled
+pressHoldAction=Disabled,Disabled
+screenWidth=1366
+showHoverBg=false
+showTooltip=false
+singleClickAction=Disabled,Disabled
+
+[Containments][157][Applets][163]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][157][Applets][163][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][157][Applets][163][Configuration][General]
+groupingStrategy=0
+iconSpacing=3
+launchers=
+showOnlyCurrentScreen=true
+
+[Containments][157][General]
+AppletOrder=163;161;159;160
 
 [Containments][57]
 ItemGeometries-1920x1080=Applet-120:0,0,432,256,0;Applet-121:0,256,432,368,0;Applet-125:0,624,624,176,0;Applet-124:432,0,192,448,0;Applet-127:432,448,192,176,0;
@@ -21,7 +90,7 @@ ItemGeometriesHorizontal=Applet-120:0,0,432,256,0;Applet-121:0,256,432,368,0;App
 activityId=6b7a0670-a9c6-41a2-920e-69261dfecc03
 formfactor=0
 immutability=1
-lastScreen=0
+lastScreen=2
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
@@ -223,14 +292,14 @@ DialogWidth=1118
 changedPositions={}
 iconSize=2
 lastResolution=1920x1080
-positions={"1080x2340":["3","11","desktop:/steam.desktop","1","1","desktop:/DNF Duel.desktop","1","2","desktop:/Marvel Rivals.desktop","0","5","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/Art of Rally.desktop","0","6","desktop:/Minecraft Java Edition.desktop","1","5","desktop:/zen.desktop","0","9","desktop:/umm.desktop","1","4","desktop:/heroic.desktop","0","1","desktop:/Sekiro Shhadows Die Twice.desktop","0","2","desktop:/Counter-Strike 2.desktop","0","4","desktop:/org.kde.dolphin.desktop","0","10","desktop:/Balatro.desktop","0","8","desktop:/pcsx2.desktop","2","0","desktop:/Team Fortress 2.desktop","0","3","desktop:/Need for speed most wanted 2005.desktop","0","7","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop","1","3"],"1536x864":[""],"1920x1080":["1","20","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/steam.desktop","1","1","desktop:/Tekkit 2","2","19","desktop:/DuckStation-x64.AppImage","3","1","desktop:/zen.desktop","2","9","desktop:/Discord.desktop","2","8","desktop:/Counter-Strike 2.desktop","0","19","desktop:/Cemu.desktop","2","1","desktop:/org.kde.dolphin.desktop","2","10","desktop:/heroic.desktop","0","1","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/suyu.desktop","3","0","desktop:/pcsx2.desktop","2","0","desktop:/umm.desktop","10","19","desktop:/Team Fortress 2.desktop","1","19"],"2133x1200":[""],"2340x1080":["1","24","desktop:/Tekkit 2","2","19","desktop:/zen.desktop","2","9","desktop:/org.kde.dolphin.desktop","2","10","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/heroic.desktop","0","1","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/Cemu.desktop","2","1","desktop:/steam.desktop","1","1","desktop:/Discord.desktop","2","8","desktop:/umm.desktop","10","19","desktop:/suyu.desktop","3","0","desktop:/Counter-Strike 2.desktop","0","19","desktop:/Team Fortress 2.desktop","1","19","desktop:/pcsx2.desktop","2","0","desktop:/DuckStation-x64.AppImage","3","1"],"2560x1440":[""]}
+positions={"1080x2340":["3","11","desktop:/steam.desktop","1","1","desktop:/DNF Duel.desktop","1","2","desktop:/Marvel Rivals.desktop","0","5","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/Art of Rally.desktop","0","6","desktop:/Minecraft Java Edition.desktop","1","5","desktop:/zen.desktop","0","9","desktop:/umm.desktop","1","4","desktop:/heroic.desktop","0","1","desktop:/Sekiro Shhadows Die Twice.desktop","0","2","desktop:/Counter-Strike 2.desktop","0","4","desktop:/org.kde.dolphin.desktop","0","10","desktop:/Balatro.desktop","0","8","desktop:/pcsx2.desktop","2","0","desktop:/Team Fortress 2.desktop","0","3","desktop:/Need for speed most wanted 2005.desktop","0","7","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/net.lutris.assassins-creed-iv-black-flag-2.desktop","1","3"],"1536x864":[""],"1920x1080":["1","20","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/steam.desktop","1","1","desktop:/Team Fortress 2.desktop","1","19","desktop:/org.kde.dolphin.desktop","2","10","desktop:/zen.desktop","2","9","desktop:/Counter-Strike 2.desktop","0","19","desktop:/Tekkit 2","2","19","desktop:/suyu.desktop","3","0","desktop:/umm.desktop","10","19","desktop:/Discord.desktop","2","8","desktop:/DuckStation-x64.AppImage","3","1","desktop:/heroic.desktop","0","1","desktop:/Cemu.desktop","2","1","desktop:/pcsx2.desktop","2","0"],"2133x1200":[""],"2340x1080":["1","24","desktop:/Tekkit 2","2","19","desktop:/zen.desktop","2","9","desktop:/org.kde.dolphin.desktop","2","10","desktop:/net.lutris.Lutris.desktop","1","0","desktop:/heroic.desktop","0","1","desktop:/net.lutris.ubisoft-connect-1.desktop","0","0","desktop:/Cemu.desktop","2","1","desktop:/steam.desktop","1","1","desktop:/Discord.desktop","2","8","desktop:/umm.desktop","10","19","desktop:/suyu.desktop","3","0","desktop:/Counter-Strike 2.desktop","0","19","desktop:/Team Fortress 2.desktop","1","19","desktop:/pcsx2.desktop","2","0","desktop:/DuckStation-x64.AppImage","3","1"],"2560x1440":[""]}
 sortMode=-1
 
 [Containments][57][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
 [Containments][57][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Cluster/
+Image=/home/pigeon/Downloads/Nijisanji-u4ulsmjw94pa1.png
 SlidePaths=/home/pigeon/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][57][Wallpaper][org.kde.plasma.citygrow][General]
@@ -239,6 +308,9 @@ scale=1
 start_branches=9
 
 [Containments][86]
+ItemGeometries-1366x768=
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=6b7a0670-a9c6-41a2-920e-69261dfecc03
 formfactor=0
 immutability=1
@@ -247,11 +319,16 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][86][ConfigDialog]
+DialogHeight=999
+DialogWidth=1920
+
 [Containments][86][General]
 positions={"1170x540":[],"1366x768":[],"1920x1080":[]}
 
 [Containments][86][Wallpaper][org.kde.image][General]
-Image=/home/pigeon/Pictures/t3_110ml54.png
+Image=file:///home/pigeon/Pictures/wallhaven-kxoj7q.jpg
+SlidePaths=/home/pigeon/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][92]
 activityId=
@@ -287,22 +364,23 @@ DialogWidth=810
 
 [Containments][92][Applets][117][Configuration][General]
 launchers=
+showOnlyCurrentScreen=true
 taskMaxWidth=Narrow
 wheelEnabled=AllTask
 
-[Containments][92][Applets][118]
+[Containments][92][Applets][164]
 immutability=1
-plugin=com.github.nirwin81.tiledmenuprime
+plugin=org.kde.plasma.kickoff
 
-[Containments][92][Applets][118][Configuration]
-popupHeight=661
-popupWidth=759
+[Containments][92][Applets][164][Configuration]
+popupHeight=509
+popupWidth=647
 
-[Containments][92][Applets][118][Configuration][ConfigDialog]
+[Containments][92][Applets][164][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
-[Containments][92][Applets][118][Configuration][General]
+[Containments][92][Applets][164][Configuration][General]
 appDescription=hidden
 appListWidth=330
 defaultTileColor=#00000000
@@ -315,7 +393,7 @@ sidebarButtonSize=40
 sidebarFollowsTheme=true
 sidebarIconSize=18
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
-tileModel=W3sieCI6MCwieSI6MCwidyI6MiwiaCI6MiwidXJsIjoicHJlZmVycmVkOi8vYnJvd3NlciIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjIsInkiOjAsInciOjIsImgiOjIsInVybCI6InN0ZWFtLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjowLCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJ2ZXNrdG9wLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjoyLCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJkaXNjb3JkLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4Ijo0LCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJoZWxpdW0uZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjAsInkiOjQsInciOjIsImgiOjIsInVybCI6Imhlcm9pYy5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6MiwieSI6NCwidyI6MiwiaCI6MiwidXJsIjoia2l0dHkuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjQsInkiOjQsInciOjIsImgiOjIsInVybCI6Im5ldC5sdXRyaXMuTHV0cmlzLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjowLCJ5Ijo2LCJ3IjoyLCJoIjoyLCJ1cmwiOiJwcm90b24udnBuLmFwcC5ndGsuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjIsInkiOjYsInciOjIsImgiOjIsInVybCI6Im5ldC5kYXZpZG90ZWsucHVwZ3VpMi5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6MiwieSI6OCwidyI6MiwiaCI6MiwidXJsIjoic3lzdGVtc2V0dGluZ3MuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjQsInkiOjYsInciOjIsImgiOjIsInVybCI6Im9yZy50ZWxlZ3JhbS5kZXNrdG9wLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjowLCJ5Ijo4LCJ3IjoyLCJoIjoyLCJ1cmwiOiJkZXYuemVkLlplZC5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6NCwieSI6MCwidyI6MiwiaCI6MiwidXJsIjoib3JnLmtkZS5kb2xwaGluLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX1d
+tileModel=W3sieCI6MCwieSI6MCwidyI6MiwiaCI6MiwidXJsIjoicHJlZmVycmVkOi8vYnJvd3NlciIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjIsInkiOjAsInciOjIsImgiOjIsInVybCI6InN0ZWFtLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjowLCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJ2ZXNrdG9wLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjoyLCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJkaXNjb3JkLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4Ijo0LCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJoZWxpdW0uZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjIsInkiOjQsInciOjIsImgiOjIsInVybCI6ImtpdHR5LmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4Ijo0LCJ5Ijo0LCJ3IjoyLCJoIjoyLCJ1cmwiOiJuZXQubHV0cmlzLkx1dHJpcy5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6MCwieSI6NiwidyI6MiwiaCI6MiwidXJsIjoicHJvdG9uLnZwbi5hcHAuZ3RrLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjoyLCJ5Ijo2LCJ3IjoyLCJoIjoyLCJ1cmwiOiJuZXQuZGF2aWRvdGVrLnB1cGd1aTIuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjQsInkiOjYsInciOjIsImgiOjIsInVybCI6Im9yZy50ZWxlZ3JhbS5kZXNrdG9wLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjowLCJ5Ijo4LCJ3IjoyLCJoIjoyLCJ1cmwiOiJkZXYuemVkLlplZC5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6NCwieSI6MCwidyI6MiwiaCI6MiwidXJsIjoib3JnLmtkZS5kb2xwaGluLmRlc2t0b3AiLCJwdXNoZWRGcm9tWCI6LTEsInB1c2hlZEZyb21ZIjotMX0seyJ4IjoyLCJ5Ijo4LCJ3IjoyLCJoIjoyLCJ1cmwiOiJ2aXJ0LW1hbmFnZXIuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjAsInkiOjQsInciOjIsImgiOjIsInVybCI6ImNvbS5oZXJvaWNnYW1lc2xhdW5jaGVyLmhnbC5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6NCwieSI6OCwidyI6MiwiaCI6MiwidXJsIjoic3ViZ2FtZS5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6MiwieSI6MTAsInciOjIsImgiOjIsInVybCI6InN1YmdhbWUtc3RvcC5kZXNrdG9wIiwicHVzaGVkRnJvbVgiOi0xLCJwdXNoZWRGcm9tWSI6LTF9LHsieCI6MCwieSI6MTAsInciOjIsImgiOjIsInVybCI6InN1YmdhbWUtc3RhcnQuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfSx7IngiOjQsInkiOjEwLCJ3IjoyLCJoIjoyLCJ1cmwiOiJzdWJnYW1lLXJlc3RhcnQuZGVza3RvcCIsInB1c2hlZEZyb21YIjotMSwicHVzaGVkRnJvbVkiOi0xfV0=
 
 [Containments][92][Applets][97]
 activityId=
@@ -415,8 +493,8 @@ knownItems=org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.volume,org.kde
 scaleIconsToFit=true
 
 [Containments][92][General]
-AppletOrder=118;117;97;112
+AppletOrder=164;117;97;112
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/pcsx2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/zen.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.ubisoft-connect-1.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/org.kde.dolphin.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Counter-Strike 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Discord.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Team Fortress 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.Lutris.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/dev.suyu_emu.suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/heroic.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Cemu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/umm.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/steam.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Tekkit 2,0,6b7a0670-a9c6-41a2-920e-69261dfecc03
+screenMapping=desktop:/net.lutris.ubisoft-connect-1.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/dev.suyu_emu.suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/org.kde.dolphin.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Team Fortress 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Discord.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/pcsx2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/net.lutris.Lutris.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Counter-Strike 2.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/heroic.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Cemu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/steam.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/Tekkit 2,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/umm.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/suyu.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:/zen.desktop,0,6b7a0670-a9c6-41a2-920e-69261dfecc03,desktop:DuckStation-x64.AppImage,0,6b7a0670-a9c6-41a2-920e-69261dfecc03

@@ -8,6 +8,13 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjwAAAACAQAAAQAA
 [General]
 Number of Actions=0
 
+[PlasmaViews][Panel 157]
+floating=0
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 157][Defaults]
+thickness=48
+
 [PlasmaViews][Panel 2]
 floating=0
 
@@ -42,6 +49,7 @@ alignment=132
 floating=0
 panelLengthMode=0
 panelOpacity=0
+panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 92][Defaults]

@@ -191,6 +191,7 @@ SetEditor=false
 1920x1080 screen: Height=1025
 1920x1080 screen: Width=957
 1920x1080 screen: Window-Maximized=true
+2 screens: Window-Maximized=true
 ToolBarsMovable=Disabled
 
 [PluginSymbolViewer]
